@@ -77,5 +77,28 @@
             timeout: 10000
         }
     }).addTo(map);
-    var zoom_bar = new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
+    var zoom_bar = new L.Control.ZoomBar({
+        position: 'topleft'
+    }).addTo(map);
+    L.control.coordinates({
+        position: "bottomleft",
+        decimals: 2,
+        decimalSeperator: ",",
+        labelTemplateLat: "Latitude: {y}",
+        labelTemplateLng: "Longitude: {x}"
+    }).addTo(map);
+    /* scala */
+    L.control.scale({
+        metric: true,
+        position: "bottomleft"
+    }).addTo(map);
+    var north = L.control({
+        position: "bottomleft"
+    });
+    north.onAdd = function(map) {
+        var div = L.DomUtil.create("div", "info legend");
+        div.innerHTML = '<img src="<?= base_url() ?>assets/arah-mata-angin.png"style=width:200px;>';
+        return div;
+    }
+    north.addTo(map);
 </script>

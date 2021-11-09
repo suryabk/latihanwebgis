@@ -51,4 +51,7 @@
 
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/L.Control.ZoomBar.css" />
     <script type="text/javascript" src="<?= base_url() ?>assets/L.Control.ZoomBar.js"></script>
+
+    <script type="text/javascript" src="<?= base_url() ?>assets/Leaflet.Coordinates-0.1.5.min.js"></script>
+    <link rel="stylesheet" href="<?= base_url() ?>assets/Leaflet.Coordinates-0.1.5.css" />
 </head>
