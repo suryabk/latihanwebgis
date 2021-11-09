@@ -21,5 +21,3 @@
                 </button>
             </div>
         </nav>
-    </div>
-</body>
