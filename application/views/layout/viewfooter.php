@@ -10,7 +10,7 @@
 
     <!-- Default to the left -->
 
-    <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    <strong>Copyright &copy; ,<span style="color:darkblue;"> Surya Bhakti Kusuma </span> </strong> 11180930000112. All rights
     reserved.
 
 </footer>
