@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "Surya",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Nama": "SMPN 28 Tangerang", "Lintang": -6.2386117325484802, "Bujur": 106.704640813089 }, "geometry": { "type": "Point", "coordinates": [ 106.704640813089, -6.23861173254848 ] } },
+{ "type": "Feature", "properties": { "Nama": "SMA N 12 Tangerang", "Lintang": -6.2341214845572903, "Bujur": 106.725832255404 }, "geometry": { "type": "Point", "coordinates": [ 106.725832255404001, -6.23412148455729 ] } },
+{ "type": "Feature", "properties": { "Nama": "SMAS Budi Mulia", "Lintang": -6.2265460824021304, "Bujur": 106.714105619688 }, "geometry": { "type": "Point", "coordinates": [ 106.714105619687999, -6.22654608240213 ] } },
+{ "type": "Feature", "properties": { "Nama": "MI AL Husna", "Lintang": -6.2411643170548796, "Bujur": 106.71745202339299 }, "geometry": { "type": "Point", "coordinates": [ 106.717452023392994, -6.24116431705488 ] } },
+{ "type": "Feature", "properties": { "Nama": "SMK An-Nurmaniyah (YAPERA)", "Lintang": -6.2428231843391799, "Bujur": 106.715733338262 }, "geometry": { "type": "Point", "coordinates": [ 106.715733338261998, -6.24282318433918 ] } },
+{ "type": "Feature", "properties": { "Nama": "SDN Sudimara Timur 2", "Lintang": -6.2345194532590504, "Bujur": 106.711262175728 }, "geometry": { "type": "Point", "coordinates": [ 106.711262175727995, -6.23451945325905 ] } },
+{ "type": "Feature", "properties": { "Nama": "SDN Sudimara 3", "Lintang": -6.22750545055555, "Bujur": 106.705234641337 }, "geometry": { "type": "Point", "coordinates": [ 106.705234641337, -6.22750545055555 ] } },
+{ "type": "Feature", "properties": { "Nama": "SMPN 3 Tangerang", "Lintang": -6.2280488828548197, "Bujur": 106.704962723395 }, "geometry": { "type": "Point", "coordinates": [ 106.704962723394999, -6.22804888285482 ] } },
+{ "type": "Feature", "properties": { "Nama": "SMAN 3 Tangerang", "Lintang": -6.2244454182112898, "Bujur": 106.704094941337 }, "geometry": { "type": "Point", "coordinates": [ 106.704094941337004, -6.22444541821129 ] } },
+{ "type": "Feature", "properties": { "Nama": "SMPN 25 Tangerang", "Lintang": -6.24371778287927, "Bujur": 106.72255222391701 }, "geometry": { "type": "Point", "coordinates": [ 106.722552223917006, -6.24371778287927 ] } },
+{ "type": "Feature", "properties": { "Nama": "SMK PGRI 11 Ciledug", "Lintang": -6.2276754930665197, "Bujur": 106.70614725778999 }, "geometry": { "type": "Point", "coordinates": [ 106.706147257789993, -6.22767549306652 ] } },
+{ "type": "Feature", "properties": { "Nama": "SDN 2 Paninggilan", "Lintang": -6.2423777912534097, "Bujur": 106.71056482709599 }, "geometry": { "type": "Point", "coordinates": [ 106.710564827095993, -6.24237779125341 ] } },
+{ "type": "Feature", "properties": { "Nama": "MI Mazroatul Ulum", "Lintang": -6.2424179217080402, "Bujur": 106.71065046386001 }, "geometry": { "type": "Point", "coordinates": [ 106.710650463860006, -6.24241792170804 ] } },
+{ "type": "Feature", "properties": { "Nama": "SMK Yuppentek 6 Tangerang", "Lintang": -6.2326891991736302, "Bujur": 106.702039385292 }, "geometry": { "type": "Point", "coordinates": [ 106.702039385291997, -6.23268919917363 ] } },
+{ "type": "Feature", "properties": { "Nama": "SMK Yuppentek 4 Tangerang", "Lintang": -6.2328396030200599, "Bujur": 106.70204482761901 }, "geometry": { "type": "Point", "coordinates": [ 106.702044827619005, -6.23283960302006 ] } }
+]
+}

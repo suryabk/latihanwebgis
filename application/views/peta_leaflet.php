@@ -6,6 +6,7 @@
     var faskes = new L.LayerGroup();
     var sungai = new L.LayerGroup();
     var provin = new L.LayerGroup();
+    var sekolah = new L.LayerGroup();
 
     var map = L.map('map', {
         center: [-1.7912604466772375, 116.42311966554416],
@@ -48,7 +49,8 @@
             'Provinsi': provin,
         },
         "Peta Khusus": {
-            'Fasilitas Kesehatan': faskes
+            'Fasilitas Kesehatan': faskes,
+            'Sekolah Kec. Ciledug': sekolah
         }
     };
 
@@ -201,6 +203,21 @@
                 return marker;
             }
         }).addTo(faskes);
+    });
+    $.getJSON("<?= base_url() ?>assets/Sekolah.geojson", function(data) {
+        var ratIcon = L.icon({
+            iconUrl: '<?= base_url() ?>assets/Marker-5.png',
+            iconSize: [12, 10]
+        });
+        L.geoJson(data, {
+            pointToLayer: function(feature, latlng) {
+                var marker = L.marker(latlng, {
+                    icon: ratIcon
+                });
+                marker.bindPopup(feature.properties.Nama);
+                return marker;
+            }
+        }).addTo(sekolah);
     });
     $.getJSON("<?= base_url() ?>/assets/sungai.geojson", function(kode) {
         L.geoJson(kode, {

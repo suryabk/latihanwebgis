@@ -31,6 +31,10 @@
 
     <script src="<?= base_url() ?>assets/template/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
     <!-- AdminLTE App -->
 
     <script src="<?= base_url() ?>assets/template/dist/js/adminlte.min.js"></script>
